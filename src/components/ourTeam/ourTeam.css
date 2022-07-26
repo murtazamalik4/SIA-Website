@@ -1,0 +1,156 @@
+.container{
+    background-color:  #FFE7EB;
+}
+
+.mySwiper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    padding: 40px 15px;
+}
+
+.main-team{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    margin-top: 90px;
+}
+
+/* .team-container-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 40px 15px;
+} */
+
+hr{
+    border:0px solid #F31237;
+    background-color: #F31237;
+    width: 63px;
+    height: 8px;
+    margin: 5px 0px 30px 0px;
+    margin: auto;
+}
+
+.teams{
+    display: flex;
+    margin-top:70px;
+}
+
+.team-1 , .team-2 , .team-3{
+    margin: 7px;
+
+}
+
+.team_1 , .team_2 , .team_3{
+    
+    
+    padding: 10px 0px 10px 10px ;
+    
+}
+
+.name ,.position, .explain{
+   color: #12101C;
+   font-family: 'Open Sans';
+font-style: normal;
+width: 377px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.position{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(18, 16, 28, 0.6);
+}
+
+.explain{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #54595F;
+}
+
+.icons{
+    display: flex;
+}
+
+.facebook{
+    background: #1877F2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:32px;
+    width: 32px;
+    margin: 5px;
+}
+
+.twitter{
+    background: #1DA1F2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:32px;
+    width: 32px;
+    margin: 5px;
+}
+
+.insta{
+    background: #F00073;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:32px;
+    width: 32px;
+    margin: 5px;
+}
+
+
+
+.swiper-container {
+    width: 480px;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .swiper-container {
+      width: 640px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .swiper-container {
+      width: 768px;
+    }
+  }
+
+
+  @media screen and (max-width: 920px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+  }
+
+  @media screen and (min-width: 920px) {
+    .hide-on-desktop {
+        display: none;
+    }
+  }

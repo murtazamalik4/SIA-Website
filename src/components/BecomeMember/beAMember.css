@@ -1,0 +1,86 @@
+.BAMCard {
+    width: 100%;
+    background-image: url("../../../public/assets/images/BAmBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 90px;
+}
+
+.bam-detail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container {
+    width: 75%;
+    height: auto;
+}
+
+.bam-btn-container {
+    width: 25%;
+    height: auto;
+}
+
+.heading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 25px;
+    color: #F31237;
+}
+
+.span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.bam-btn {
+    background: #F31237;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 45px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+
+    .bam-detail-container {
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .heading {
+        line-height: 45px;
+    }
+
+    .BAMCard {
+        padding: 15px 15px;
+        margin-bottom: 65px;
+    }
+
+    .bam-btn-container {
+        width: 100%;
+
+    }
+
+    .bam-btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  }
